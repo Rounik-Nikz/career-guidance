@@ -1,0 +1,10 @@
+{
+  "name": "career-guidance",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix uploader\" \"npm start --prefix uploader/client\" \"npm start --prefix frontend\" \"npm start --prefix quiz\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

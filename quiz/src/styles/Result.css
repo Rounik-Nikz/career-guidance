@@ -1,0 +1,74 @@
+.result-container {
+    text-align: center;
+    background: rgba(20, 20, 20, 0.8);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 650px;
+    margin: 50px auto;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    font-size: 26px;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    width: 100%;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.score-summary {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.score-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    text-align: left;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.category-name {
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.score {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.retry-btn {
+    background: linear-gradient(135deg, #ff4c4c, #ff9500);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.retry-btn:hover {
+    background: linear-gradient(135deg, #d43838, #e67e22);
+    transform: scale(1.05);
+}
